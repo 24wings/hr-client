@@ -1,0 +1,8 @@
+POST https://klvjaxqjuulmvlwelpro.hasura.eu-central-1.nhost.run/v1/graphql
+Content-Type: application/json
+x-hasura-admin-secret: 2e1ci4l8k$m9RTohp9ckNve*H-k*:hFC
+
+{
+    "query":"query{teacher{id,name}}",
+    "variables":{}
+}
